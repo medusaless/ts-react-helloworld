@@ -8,8 +8,6 @@ interface HelloState {
     value: String
 }
 
-// 'HelloProps' describes the shape of props.
-// State is never set so we use the '{}' type.
 export class Hello extends React.Component<HelloProps, HelloState> {
 
     public state: HelloState = {
